@@ -15,10 +15,10 @@ set hlsearch			" 検索マッチテキストをハイライト
 colorscheme molokai
 syntax on
 
-" map: 全モード
-" nmap: ノーマルモード
-" imap: インサートモード
-" vmap: ビジュアルモード
+" mnoreap:  全モード
+" nnoremap: ノーマルモード
+" inoremap: インサートモード
+" vnoremap: ビジュアルモード
 
 " mapとnoremapの違い
 " map j gg
