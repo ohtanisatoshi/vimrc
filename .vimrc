@@ -1,4 +1,5 @@
 set nocompatible
+filetype off
 set number
 set relativenumber
 set ruler
@@ -15,10 +16,10 @@ set hlsearch			" 検索マッチテキストをハイライト
 colorscheme molokai
 syntax on
 
-" mnoreap:  全モード
-" nnoremap: ノーマルモード
-" inoremap: インサートモード
-" vnoremap: ビジュアルモード
+" map: 全モード
+" mapi ノーマルモード
+" imap: インサートモード
+" vmap: ビジュアルモード
 
 " mapとnoremapの違い
 " map j gg
