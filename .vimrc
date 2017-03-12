@@ -42,3 +42,9 @@ nnoremap <S-Left>	<C-w><<CR>          " 左に拡大
 nnoremap <S-Right>	<C-w>><CR>          " 右に拡大
 nnoremap <S-Up>		<C-w>-<CR>          " 下に拡大
 nnoremap <S-Down>	<C-w>+<CR>          " 上に拡大
+
+" for Vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+Bundle 'davidhalter/jedi-vim'
