@@ -13,6 +13,7 @@ set smartindent
 set showcmd
 
 set hlsearch			" 検索マッチテキストをハイライト
+set t_Co=256
 colorscheme molokai
 syntax on
 
